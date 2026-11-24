@@ -1,7 +1,7 @@
 # pyright: reportMissingImports=false
 import pytest
 from fastapi.testclient import TestClient
-import main3 as main3
+import main as main3
 
 client = TestClient(main3.app)
 
